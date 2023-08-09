@@ -1,3 +1,3 @@
-words = input ("(third commit) enter anything here: ")
-words = words.upper()
-print (words)
+name = input ("What's your name? ")
+name = name.split(" ")
+print(name)
