@@ -1,3 +1,6 @@
-name = input ("What's your name? ")
-name = name.split(" ")
-print(name)
+def hello(name):
+    print(f"hello, {name}")
+
+
+go = input("What's your name? ")
+hello(go)
